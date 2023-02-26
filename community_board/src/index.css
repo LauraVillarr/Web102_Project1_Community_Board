@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.Cardset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 60px;
+}
+
+.Card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card_img{
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.card_item {
+  margin: 10px;
+  inline-size: 270px;
+}
+
+button {
+  background: rgb(35,219,111);
+  /* background: linear-gradient(0deg, rgba(35,219,111,1) 0%, rgba(123,215,139,1) 100%); */
+  border: none;
+  padding: 10px 32px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(56, 245, 125);
+  /* background: linear-gradient(0deg, rgba(123,215,139,1) 0%, rgba(104,182,118,1) 100%); */
+}
